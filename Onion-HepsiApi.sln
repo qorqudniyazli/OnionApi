@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7446BCBE-8784-4D2F-A821-7C5D553E99BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E77463B1-DB35-4F46-8830-C801898E13B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B8782517-8878-4AB3-B850-6D05A0EB2EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Application", "Core\YoutubeApi.Application\YoutubeApi.Application.csproj", "{D4855ED5-8D38-4152-858B-7863EE880DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Domain", "Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj", "{0B639049-2628-4E38-9D32-C2F70B9FB869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youtube.Infrastructure", "Infrastructure\Youtube.Infrastructure\Youtube.Infrastructure.csproj", "{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Persistence", "Infrastructure\YoutubeApi.Persistence\YoutubeApi.Persistence.csproj", "{1DCBD98B-F0FF-4579-BCEC-680755BE47A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeApi.Api", "Presentation\YoutubeApi.Api\YoutubeApi.Api.csproj", "{3D572B2E-1EC9-4F41-A0AD-67A71E56E876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4855ED5-8D38-4152-858B-7863EE880DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4855ED5-8D38-4152-858B-7863EE880DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4855ED5-8D38-4152-858B-7863EE880DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4855ED5-8D38-4152-858B-7863EE880DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B639049-2628-4E38-9D32-C2F70B9FB869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B639049-2628-4E38-9D32-C2F70B9FB869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B639049-2628-4E38-9D32-C2F70B9FB869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B639049-2628-4E38-9D32-C2F70B9FB869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCBD98B-F0FF-4579-BCEC-680755BE47A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCBD98B-F0FF-4579-BCEC-680755BE47A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCBD98B-F0FF-4579-BCEC-680755BE47A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCBD98B-F0FF-4579-BCEC-680755BE47A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D572B2E-1EC9-4F41-A0AD-67A71E56E876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D572B2E-1EC9-4F41-A0AD-67A71E56E876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D572B2E-1EC9-4F41-A0AD-67A71E56E876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D572B2E-1EC9-4F41-A0AD-67A71E56E876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4855ED5-8D38-4152-858B-7863EE880DB2} = {7446BCBE-8784-4D2F-A821-7C5D553E99BC}
+		{0B639049-2628-4E38-9D32-C2F70B9FB869} = {7446BCBE-8784-4D2F-A821-7C5D553E99BC}
+		{2F2B2035-0DC2-44E2-A0AB-C89550BE4B0E} = {E77463B1-DB35-4F46-8830-C801898E13B7}
+		{1DCBD98B-F0FF-4579-BCEC-680755BE47A3} = {E77463B1-DB35-4F46-8830-C801898E13B7}
+		{3D572B2E-1EC9-4F41-A0AD-67A71E56E876} = {B8782517-8878-4AB3-B850-6D05A0EB2EB5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2419311B-D778-41A8-A0FC-5CACFB7583FF}
+	EndGlobalSection
+EndGlobal
